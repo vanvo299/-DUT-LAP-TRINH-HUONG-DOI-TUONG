@@ -6,6 +6,11 @@ int main()
     // Tạo mảng s1 và thêm các phần tử
     int a[] = {2, 3, 5, 1, 8, 10};
     set s1(a, 6);
+    
+    set ss(6);
+    ss = s1;
+    cout << "SET sau khi duoc gan cho SET khac: ";
+    cout << ss; 
 
     s1 = s1 + 14;
     s1 = s1 + 15;
@@ -53,6 +58,6 @@ int main()
     // Sử dụng toán tử ()
     bool check = s1(3);
     bool check2 = s1(10);
-
+    cout << endl;
     return 0;
 }

@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-const int max_size = 100;
+const int max_size = 100; // Kích thước tối đa của SET
 
 class set {
     private:    
