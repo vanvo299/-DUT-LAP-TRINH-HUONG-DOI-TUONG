@@ -90,10 +90,12 @@ void LinkList::addLaterOneElement(int element, int val)
         if (current->value == element) {
             newNode->next = current->next;
             current->next = newNode;
-        }
 
-        if (current == end) {
+            // cập nhật nếu phần tử được thêm sau là phân tử cuối
+            if (current == end) {
             end = newNode;
+            }
+            return;
         }
         current = current->next;
     }
