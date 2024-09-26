@@ -33,17 +33,6 @@ set::set(int soNguyen[], int size)
     }
 }
 
-// set set::operator+(int x)
-// {
-//     if (this->n == this->size) {
-//         cout << "Mang da het cho. \n";
-//         return *this; 
-//     }
-//     set res(*this);
-//     res.data[res.n++] = x;
-//     return res;
-// }
-
 set set::operator+(int x) {
     if (this->n == this->size) {
         cout << "Mang da het cho. \n";
