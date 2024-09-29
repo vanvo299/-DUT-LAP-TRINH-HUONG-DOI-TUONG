@@ -15,7 +15,7 @@ class Vecto_NC {
         Vecto_NC &operator + (Vecto_NC &);
         Vecto_NC &operator - (Vecto_NC &);
         float &operator * (Vecto_NC &);
-        Vecto_NC &operator = (Vecto_NC &);
+        const Vecto_NC &operator = (const Vecto_NC &);
         float &operator [] (unsigned int index);
         friend istream &operator >> (istream &in, Vecto_NC &v);
         friend ostream &operator << (ostream &out, const Vecto_NC &v);

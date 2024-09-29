@@ -85,7 +85,7 @@ float &Vecto_NC::operator[](unsigned int index)
     return data[index];
 }
 
-Vecto_NC &Vecto_NC::operator=(Vecto_NC &v)
+const Vecto_NC &Vecto_NC::operator=(const Vecto_NC &v)
 {
     this->chieu = v.chieu;
     data = new float[chieu];
