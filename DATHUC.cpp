@@ -1,6 +1,5 @@
 #include "DATHUC.h"
 #include <cmath>
-#include <stdexcept>
 
 using namespace std;
 
